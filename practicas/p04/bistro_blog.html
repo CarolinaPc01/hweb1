@@ -1,3 +1,8 @@
+<!-- PRACTICA 4 
+     * <article>: Representa un bloque independiente de la pagina que tiene sentido por si mismo (ej. posts de blog).
+     * <section>: Se utiliza para agrupar fragmentos de contenido tematico o conceptual relacionado dentro de un documento o articulo.
+     * <div>: Elemento que no tiene valor semantico y se usa para agrupar contenido.
+     * <span>: Se utiliza para marcar o separar fragmentos especificos de texto sin añadir saltos de linea. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,7 +26,7 @@
 
     <main>
     <!-- Primer articulo: Menu de Otoño -->
-     <article> id="Menu">
+     <article id="Menu">
 
         <header>
             <h2>Menu de Otoño</h2>
@@ -29,8 +34,8 @@
                publicado por NEOJC,
                <!-- datetime indica la fecha de formato año-mes-dia.
                 Pubdate identifica la fecha de publicacion del articulo -->
-                <time>
-                    datetime="2019-08-11" pubdate="pubdate">11 de agosto de 2019
+                <time
+                    datetime="2019-08-11" pubdate>11 de agosto de 2019
                 </time>
             </p> 
         </header>
@@ -42,7 +47,7 @@
         </p>
 
         <!-- Seccion Conceptual 1: Aperitivos -->
-        <section> id="aperitivos">
+        <section id="aperitivos">
             <h3>Aperitivos</h3>
 
             <dl>
@@ -57,7 +62,7 @@
         </section>
 
         <!-- Seccion Conceptual 2: Platillos principales -->
-        <section> id="platillos especiales">
+        <section id="platillos especiales">
             <h3>Platillos principales</h3>
 
             <dl>
